@@ -1,4 +1,4 @@
-pip install -r requirements.txt# Stock Market Prediction with Sentiment Analysis
+Stock Market Prediction with Sentiment Analysis
 
 A Flask-based web application that predicts stock prices using machine learning models (XGBoost) incorporating sentiment analysis from news data. The app allows users to select a stock symbol and view predictions along with performance metrics and visualizations.
 
