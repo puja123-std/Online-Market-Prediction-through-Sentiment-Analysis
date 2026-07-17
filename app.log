@@ -1,0 +1,63 @@
+2025-11-11 18:33:52,688 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2025-11-11 18:33:52,690 - stock_prediction_app - INFO - Starting Flask application...
+2025-11-11 18:33:55,389 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2025-11-11 18:33:55,390 - stock_prediction_app - INFO - Starting Flask application...
+2025-11-11 18:34:30,623 - stock_prediction_app - INFO - Request received for stock: MMM
+2025-11-11 18:34:30,646 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2025-11-11 18:34:30,648 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2025-11-11 18:34:30,648 - stock_prediction_app - INFO - Starting model training...
+2025-11-11 18:34:31,828 - stock_prediction_app - INFO - Model training completed.
+2025-11-11 18:34:31,838 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2025-11-11 18:34:32,241 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2025-11-11 18:43:35,207 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2025-11-11 18:43:35,209 - stock_prediction_app - INFO - Starting Flask application...
+2025-11-11 18:43:37,704 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2025-11-11 18:43:37,706 - stock_prediction_app - INFO - Starting Flask application...
+2025-11-11 18:43:41,471 - stock_prediction_app - INFO - Request received for stock: MMM
+2025-11-11 18:43:41,732 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2025-11-11 18:43:41,737 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2025-11-11 18:43:41,741 - stock_prediction_app - INFO - Starting model training...
+2025-11-11 18:43:43,166 - stock_prediction_app - INFO - Model training completed.
+2025-11-11 18:43:43,182 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2025-11-11 18:43:44,292 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2025-11-11 18:43:57,149 - stock_prediction_app - INFO - Request received for stock: MMM
+2025-11-11 18:43:57,178 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2025-11-11 18:43:57,180 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2025-11-11 18:43:57,180 - stock_prediction_app - INFO - Starting model training...
+2025-11-11 18:43:58,742 - stock_prediction_app - INFO - Model training completed.
+2025-11-11 18:43:58,750 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2025-11-11 18:45:09,062 - stock_prediction_app - INFO - Request received for stock: MMM
+2025-11-11 18:45:09,121 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2025-11-11 18:45:09,129 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2025-11-11 18:45:09,130 - stock_prediction_app - INFO - Starting model training...
+2025-11-11 18:45:11,178 - stock_prediction_app - INFO - Model training completed.
+2025-11-11 18:45:11,191 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2025-11-11 18:45:11,998 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2025-11-11 18:45:56,095 - stock_prediction_app - INFO - Request received for stock: MMM
+2025-11-11 18:45:56,183 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2025-11-11 18:45:56,201 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2025-11-11 18:45:56,217 - stock_prediction_app - INFO - Starting model training...
+2025-11-11 18:45:58,004 - stock_prediction_app - INFO - Model training completed.
+2025-11-11 18:45:58,015 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2025-11-11 18:45:58,659 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2026-07-17 23:19:58,776 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2026-07-17 23:19:58,778 - stock_prediction_app - INFO - Starting Flask application...
+2026-07-17 23:20:01,076 - stock_prediction_app - INFO - Loaded data with 217811 rows and 495 unique stock symbols.
+2026-07-17 23:20:01,077 - stock_prediction_app - INFO - Starting Flask application...
+2026-07-17 23:20:06,865 - stock_prediction_app - INFO - Request received for stock: MMM
+2026-07-17 23:20:06,916 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2026-07-17 23:20:06,920 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2026-07-17 23:20:14,876 - stock_prediction_app - INFO - Using XGBoost for training.
+2026-07-17 23:20:16,147 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2026-07-17 23:20:18,256 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2026-07-17 23:20:30,319 - stock_prediction_app - INFO - Request received for stock: MMM
+2026-07-17 23:20:30,351 - stock_prediction_app - INFO - Preprocessed data for 'MMM': 412 rows after preprocessing.
+2026-07-17 23:20:30,357 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2026-07-17 23:20:30,360 - stock_prediction_app - INFO - Using XGBoost for training.
+2026-07-17 23:20:32,680 - stock_prediction_app - INFO - Model metrics - MSE: 27.71, MAE: 3.00, R²: 0.32, RMSE: 5.26
+2026-07-17 23:20:33,213 - stock_prediction_app - INFO - Successfully generated prediction for 'MMM'.
+2026-07-17 23:20:42,611 - stock_prediction_app - INFO - Request received for stock: ACN
+2026-07-17 23:20:42,664 - stock_prediction_app - INFO - Preprocessed data for 'ACN': 412 rows after preprocessing.
+2026-07-17 23:20:42,670 - stock_prediction_app - INFO - Training data: 329 samples, Test data: 83 samples
+2026-07-17 23:20:42,673 - stock_prediction_app - INFO - Using XGBoost for training.
+2026-07-17 23:20:45,446 - stock_prediction_app - INFO - Model metrics - MSE: 22.83, MAE: 3.72, R²: 0.94, RMSE: 4.78

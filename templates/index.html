@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Prediction though Sentiment Analysis</title>
+    <!-- Link to your CSS file in the static/css folder -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Market Prediction with Sentiment Analysis</h1>
+        <form method="POST">
+            <label for="stock">Select Stock Symbol:</label>
+            <select name="stock" id="stock">
+                {% for symbol in stock_symbols %}
+                <option value="{{ symbol }}" {% if symbol == selected_stock %}selected{% endif %}>{{ symbol }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Analyze</button>
+        </form>
+
+        {% if error %}
+            <div class="error-message">
+                <h3>Error</h3>
+                <p>{{ error }}</p>
+            </div>
+        {% else %}
+            <div class="metrics-small">
+                <h3>Model Metrics for {{ selected_stock }}</h3>
+                <p><span>MSE:</span> <span>{{ mse }}</span></p>
+                <p><span>RMSE:</span> <span>{{ rmse }}</span></p>
+                <p><span>MAE:</span> <span>{{ mae }}</span></p>
+                <p><span>R²:</span> <span>{{ r2 }}</span></p>
+            </div>
+
+            <div class="full-graph">
+                <h2>Actual vs Predicted Stock Price</h2>
+                <img src="data:image/png;base64,{{ plot_data }}" alt="Stock Price Prediction Graph" style="width: 100%; height: auto;">
+            </div>
+        {% endif %}
+    </div>
+
+
+</body>
+</html>
